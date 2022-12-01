@@ -1,13 +1,71 @@
-header {
+body{
+    font-family: Helvetica;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+.header {
+    border: 10px black solid;
     height: 100px;
-    width: 100%;
-    background-color:black;
-    color: cadetblue;
+    width: 97%;
+    padding: 15px 15px 15px 15px;
+    background-color: aqua;
+
+}
+
+.header::after::after {
+    content: "Web Developer";
+    display: table;
+    clear: both;
+}
+
+.name {
+    float: left;
+}
+
+.name h1 {
+    font-size: 25px;
+    margin: 35px 20px 20px 20px;
+    display: inline-block;
+
+}
+
+.name img {
+    max-width: 55px;
+    float: left;
+    margin: 10px 10px 10px 10px;
+}
+
+.site-navigation {
+    float: right;
+}
+
+.site-navigation ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+.site-navigation li {
+    display: inline-block;
+    margin: 35px 28px 28px 28px;
 }
 
 nav {
-    border-style: solid;
-    border-color: darkgoldenrod;
-    color:darkslategray;
-    padding: auto;
+   display: flex;
+   float: right;
+}
+
+.nav-button{
+    border: 2px solid white;
+    color: white;
+    margin: 10px;
+    padding: 10px;
+    color: white;
+    font-size: 16px;
+    line-height: 22px;
+    font-weight: 500;
 }

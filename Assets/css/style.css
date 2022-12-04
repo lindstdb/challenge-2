@@ -1,6 +1,6 @@
 body{
     font-family: Helvetica;
-    margin: 0;
+    
 }
 
 a {
@@ -217,6 +217,12 @@ footer{
 .footer-menu ul li a:hover {
     color: #27bcda;
 }
+
+img {
+    max-width: fit-content;
+    max-height: fit-content;
+}
+
 
 @media (max-width:500px) {
     .footer-menu ul {

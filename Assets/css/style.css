@@ -4,7 +4,6 @@ body{
 }
 
 a {
-    text-decoration: none;
     color: #000;
 }
 
@@ -224,5 +223,18 @@ footer{
         display:flex;
         margin-top: 10px;
         margin-bottom: 20px;
+    }
+}
+
+@media screen and (max-width:992px) {
+.header {
+    width: 100%;
+}
+
+}
+
+@media screen and (max-width: 576px) {
+    .header {
+        width: 100%;
     }
 }

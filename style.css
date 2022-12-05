@@ -1,16 +1,13 @@
 * {
-    font-size: 20px;
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
 body{
-   
     padding: 15px;
     background-color: darkcyan;
     font-family: Helvetica;
-    
 }
 
 h3{
@@ -178,6 +175,7 @@ nav {
     color: white;
     text-align: center;
     margin: 0.625rem;
+    text-decoration: none;
 }
 
 .hero-title {

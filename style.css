@@ -167,7 +167,7 @@ nav {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
-    filter: brightness(60%);
+    filter: brightness(40%);
 }
 
 .hero-content {
@@ -176,19 +176,20 @@ nav {
     color: white;
     text-align: center;
     margin: 0.625rem;
-    text-decoration: none;
 }
 
 .hero-title {
-    font-size: 3rem;
+    font-size: 80px;
     font-weight: 600;
     margin-bottom: 0;
+    text-decoration: underline;
 }
 
 .hero-subtitle {
-    font-size: 2rem;
+    font-size: 40px;
     font-weight: 200;
     margin-top: 1rem;
+    text-decoration: none;
 }
 
 .hero-button {
@@ -305,7 +306,7 @@ img {
 
 
 
-@media (max-width:500px) {
+@media screen and (max-width:768px) { 
     .column {
         width: 100%;
     }
@@ -316,7 +317,7 @@ img {
     }
 }
 
-@media (max-width:992px) {
+@media screen and (max-width:992px) {
     .column {
         width: 50%;
     }

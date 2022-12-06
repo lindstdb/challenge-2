@@ -19,7 +19,7 @@ https://lindstdb.github.io/challenge-2/
 ## Screenshot
 
    
-![Screenshot](Assets/img/screenshot.png)
+![Screenshot](assets/img/screenshot.PNG)
  
 
 ## Credits

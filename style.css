@@ -316,7 +316,7 @@ img {
     }
 }
 
-@media screen and (max-width:992px) {
+@media (max-width:992px) {
     .column {
         width: 50%;
     }
@@ -326,7 +326,7 @@ img {
 
 }
 
-@media screen and (max-width: 576px) {
+@media (max-width: 576px) {
     .header {
         width: 100%;
     }
